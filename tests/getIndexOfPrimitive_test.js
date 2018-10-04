@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getIndexOfPrimitive_1 = require("../indexes/getIndexOfPrimitive");
+var getIndexOfPrimitive_1 = require("../getIndexOfPrimitive");
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10];
 var errorTriggered = false;
 // Test 1: error is triggered if array parameter is not array:

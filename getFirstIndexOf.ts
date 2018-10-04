@@ -1,6 +1,6 @@
 import { isArray } from 'basic-data-handling/isArray_notArray';
-import { getFirstIndexOfArray } from './getFirstIndexOfArray';
 import { getIndexOfPrimitive } from './getIndexOfPrimitive';
+import { getFirstIndexOfArray } from './getFirstIndexOfArray';
 
 
 // returns -1 if value being searched for isn't found.

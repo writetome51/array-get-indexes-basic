@@ -5,6 +5,7 @@ import { errorIfNotArray } from 'basic-data-handling/errorIfNotArray';
 // necessary to worry about repetitive error-checking slowing down execution
 // when this function is called inside a loop.
 
+
 export function getIndexOfPrimitive(primitive, array, startingPosition = 0): number {
 	errorIfNotArray(array);
 	errorIfNotInteger(startingPosition);

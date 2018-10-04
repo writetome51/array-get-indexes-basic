@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e787a2a-408f-4989-9637-4b1ae41f806a" name="Default Changelist" comment="" />
+    <list default="true" id="4e787a2a-408f-4989-9637-4b1ae41f806a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getFirstIndexOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/getFirstIndexOf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getFirstIndexOf.ts" beforeDir="false" afterPath="$PROJECT_DIR$/getFirstIndexOf.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getFirstIndexOfArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getFirstIndexOfArray.ts" beforeDir="false" afterPath="$PROJECT_DIR$/getFirstIndexOfArray.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getIndexOfPrimitive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/getIndexOfPrimitive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/getIndexOfPrimitive_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/getIndexOfPrimitive_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/getIndexOfPrimitive_test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/getIndexOfPrimitive_test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/getIndexesOfArray_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/getIndexesOfArray_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/getIndexesOfArray_test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/getIndexesOfArray_test.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -44,44 +55,66 @@
     <session id="-1397783891">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="2" />
-          <entry key="json" value="1" />
-          <entry key="ts" value="10" />
+          <entry key="js" value="7" />
+          <entry key="json" value="2" />
+          <entry key="md" value="1" />
+          <entry key="ts" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2" />
-          <entry key="TypeScript" value="10" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="TypeScript" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="3" />
+          <entry key="TypeScriptServerServiceImpl" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ts" value="968" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="TypeScript" value="968" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/getIndexesOfArray.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,6 +123,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/getIndexesOfArray.ts" />
+        <option value="$PROJECT_DIR$/tests/getIndexOfPrimitive_test.ts" />
+        <option value="$PROJECT_DIR$/tests/getIndexesOfArray_test.ts" />
+        <option value="$PROJECT_DIR$/getIndexesOfPrimitive.ts" />
+        <option value="$PROJECT_DIR$/getIndexOfPrimitive.ts" />
+        <option value="$PROJECT_DIR$/getFirstIndexOfArray.ts" />
+        <option value="$PROJECT_DIR$/getFirstIndexOf.ts" />
       </list>
     </option>
   </component>
@@ -106,6 +146,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -159,6 +202,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Node.js.getIndexesOfPrimitive.js">
+    <configuration name="getIndexOfPrimitive.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="getIndexOfPrimitive.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="getIndexOfPrimitive_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="getIndexOfPrimitive_test.js" working-dir="$PROJECT_DIR$/tests">
+      <method v="2" />
+    </configuration>
+    <configuration name="getIndexesOfArray_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="getIndexesOfArray_test.js" working-dir="$PROJECT_DIR$/tests">
+      <method v="2" />
+    </configuration>
+    <configuration name="getIndexesOfPrimitive.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="getIndexesOfPrimitive.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.getIndexesOfArray_test.js" />
+      <item itemvalue="Node.js.getIndexOfPrimitive_test.js" />
+      <item itemvalue="Node.js.getIndexOfPrimitive.js" />
+      <item itemvalue="Node.js.getIndexesOfPrimitive.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.getIndexesOfPrimitive.js" />
+        <item itemvalue="Node.js.getIndexesOfArray_test.js" />
+        <item itemvalue="Node.js.getIndexOfPrimitive.js" />
+        <item itemvalue="Node.js.getIndexOfPrimitive_test.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -173,23 +244,24 @@
       <workItem from="1538260542634" duration="80000" />
       <workItem from="1538365330669" duration="40000" />
       <workItem from="1538365378721" duration="224000" />
+      <workItem from="1538623019775" duration="6283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1285000" />
+    <option name="totallyTimeSpent" value="7568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68277574" visible="true" weight="0.25822604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68277574" visible="true" weight="0.26180258" />
       <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" weight="0.2634943" />
       <window_info id="Favorites" order="2" sideWeight="0.3172243" side_tool="true" weight="0.26145172" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27137548" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.58116484" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.23743017" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -212,12 +284,17 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/getIndexesOfPrimitive.js" />
         <option value="$PROJECT_DIR$/getIndexOfPrimitive.js" />
+        <option value="$PROJECT_DIR$/getIndexesOfPrimitive.js" />
+        <option value="$PROJECT_DIR$/getIndexesOfArray.js" />
         <option value="$PROJECT_DIR$/getFirstIndexOfArray.js" />
+        <option value="$PROJECT_DIR$/tests/getIndexesOfArray_test.js" />
         <option value="$PROJECT_DIR$/getFirstIndexOf.js" />
       </list>
     </option>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -237,21 +314,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/getIndexesOfPrimitive.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getIndexesOfArray.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/getIndexesOfArray_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getFirstIndexOf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/getIndexOfPrimitive_test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/getIndexesOfArray_test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getFirstIndexOfArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/getFirstIndexOf.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getIndexOfPrimitive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getFirstIndexOfArray.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getIndexOfPrimitive.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="e#0#74#0" expanded="true" />
+            <element signature="e#0#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -263,13 +398,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getIndexesOfPrimitive.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/getIndexesOfArray.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
