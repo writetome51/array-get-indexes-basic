@@ -12,8 +12,11 @@
   },
   "keywords": [
     "array",
-    "manipulation",
+    "search",
+    "get",
+    "find",
     "indexes",
+    "manipulation",
     "data"
   ],
   "author": "Steve Thompson",
