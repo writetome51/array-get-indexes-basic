@@ -6,7 +6,7 @@ var getFirstIndexOfArray_1 = require("./getFirstIndexOfArray");
 // returns -1 if value being searched for isn't found.
 // value cannot be object.
 function getFirstIndexOf(value, array) {
-    if (typeof value === 'object' && notArray(value)) {
+    if (typeof value === 'object' && isArray_notArray_1.notArray(value)) {
         throw new Error('This function cannot search for objects');
     }
     if (isArray_notArray_1.isArray(value)) {
