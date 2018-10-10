@@ -1,4 +1,5 @@
-import { isArray, notArray } from 'basic-data-handling/isArray_notArray';
+import { isArray } from 'basic-data-handling/isArray_notArray';
+import { errorIfNotPrimitiveOrArray } from 'error-if-not-primitive-or-array';
 import { getIndexOfPrimitive } from './getIndexOfPrimitive';
 import { getFirstIndexOfArray } from './getFirstIndexOfArray';
 
@@ -7,9 +8,7 @@ import { getFirstIndexOfArray } from './getFirstIndexOfArray';
 // value cannot be object.
 
 export function getFirstIndexOf(value, array): number {
-	if (typeof value === 'object' && notArray(value)) {
-		throw new Error('This function cannot search for objects');
-	}
+	errorIfNotPrimitiveOrArray(value);
 	if (isArray(value)) {
 		return getFirstIndexOfArray(value, array);
 	}

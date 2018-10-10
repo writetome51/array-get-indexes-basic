@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-indexes-basic",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "array-handling functions that return indexes of items in the array",
   "main": "",
   "scripts": {
@@ -28,8 +28,8 @@
   "devDependencies": {},
   "dependencies": {
     "basic-data-handling": "latest",
-    "@writetome51/array-and-index-validation": "latest",
-    "@writetome51/array-non-modifying-getters-basic": "latest",
+    "error-if-values-are-not-arrays": "latest",
+    "error-if-not-primitive-or-array": "latest",
     "@writetome51/arrays-match": "latest"
   }
 }

@@ -1,6 +1,5 @@
 import { isArray } from 'basic-data-handling/isArray_notArray';
-import { errorIfValuesAreNotArrays }
-	from '@writetome51/array-and-index-validation/errorIf/errorIfValuesAreNotArrays';
+import { errorIfValuesAreNotArrays } from 'error-if-values-are-not-arrays';
 import { arraysMatch } from '@writetome51/arrays-match/arraysMatch';
 
 
