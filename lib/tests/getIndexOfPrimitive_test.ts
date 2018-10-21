@@ -5,7 +5,7 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10];
 let errorTriggered = false;
 
 
-// Test 1: error is triggered if array parameter is not array:
+// Test 1: error is triggered if second arg is not array:
 try {
 	let result = getIndexOfPrimitive(5, undefined);
 }
@@ -13,11 +13,11 @@ catch (e) {
 	errorTriggered = true;
 }
 if (errorTriggered) console.log('test 1: passed.');
-else console.log('test 1: failed.');
-errorTriggered = false;
+else console.log('test 1: FAILED.');
 
 
 // Test 2: error is triggered if startingPosition parameter is not integer:
+errorTriggered = false;
 try {
 	// @ts-ignore
 	let result = getIndexOfPrimitive(5, arr, '1');
@@ -26,15 +26,14 @@ catch (e) {
 	errorTriggered = true;
 }
 if (errorTriggered) console.log('test 2: passed.');
-else console.log('test 2: failed.');
-errorTriggered = false;
+else console.log('test 2: FAILED.');
 
 
 // Test 3: If primitive is not found, it returns -1:
 let result = getIndexOfPrimitive(100, arr);
 
 if (result === -1) console.log('test 3: passed.');
-else console.log('test 3: failed.');
+else console.log('test 3: FAILED.');
 
 
 
@@ -42,6 +41,18 @@ else console.log('test 3: failed.');
 result = getIndexOfPrimitive(10, arr, -1);
 
 if (result === 11) console.log('test 4: passed.');
-else console.log('test 4: failed.');
+else console.log('test 4: FAILED.');
 
+
+// Test 5: if first arg is not primitive, it triggers error:
+errorTriggered = false;
+try {
+	// @ts-ignore
+	let result = getIndexOfPrimitive([], arr);
+}
+catch (e) {
+	errorTriggered = true;
+}
+if (errorTriggered) console.log('test 5: passed.');
+else console.log('test 5: FAILED.');
 

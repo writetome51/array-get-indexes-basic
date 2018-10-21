@@ -1,8 +1,8 @@
 {
   "name": "@writetome51/array-get-indexes-basic",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "array-handling functions that return indexes of items in the array",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +15,8 @@
     "search",
     "get",
     "find",
+    "index",
     "indexes",
-    "manipulation",
     "data"
   ],
   "author": "Steve Thompson",
@@ -29,6 +29,7 @@
   "dependencies": {
     "basic-data-handling": "latest",
     "error-if-values-are-not-arrays": "latest",
+    "error-if-not-populated-array": "latest",
     "error-if-not-primitive-or-array": "latest",
     "@writetome51/arrays-match": "latest"
   }
