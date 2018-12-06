@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-indexes-basic",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "array-handling functions that return indexes of items in the array",
   "main": "index.js",
   "scripts": {
@@ -27,10 +27,10 @@
   "homepage": "https://github.com/writetome51/array-get-indexes-basic#readme",
   "devDependencies": {},
   "dependencies": {
-    "basic-data-handling": "latest",
-    "error-if-values-are-not-arrays": "latest",
-    "error-if-not-populated-array": "latest",
-    "error-if-not-primitive-or-array": "latest",
-    "@writetome51/arrays-match": "latest"
+    "basic-data-handling": "~1.0.13",
+    "error-if-values-are-not-arrays": "~1.0.2",
+    "error-if-not-populated-array": "~1.0.0",
+    "error-if-not-primitive-or-array": "~1.0.1",
+    "@writetome51/arrays-match": "~1.0.3"
   }
 }
