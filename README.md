@@ -1,27 +1,27 @@
-These are array-handling functions that return indexes of items in the array.
+# getFirstIndexOf(value, array): number
+
+Returns index of first instance of `value` found in `array`.  
+`value` can be a primitive or array .  Returns -1 if `value` not found.
+
+# getIndexOfPrimitive(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;primitive,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startingPosition? = 0<br>): number
+
+Behaves like `Array.indexOf()`, except it does strict type-checking on `primitive`.  
+Change `startingPosition` to get something other than the first index.  
+startingPosition can also be negative to search from the end.  
+Returns -1 if `primitive` not found.
 
 
-value: anything except an object .  Returns -1 if value not found.
+# getFirstIndexOfArray(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arrayToSearchFor,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arrayToSearchInside<br>): number
 
-getFirstIndexOf(value, array); // returns integer
-
-
-Type-checking version of Array.indexOf().  Change the startingPosition to get something other
-than the first index of primitive.  startingPosition can also be negative to search from the end.
-
-getIndexOfPrimitive(primitive, array, startingPosition = 0) // returns -1 if not found
+If `arrayToSearchFor` is found in `arrayToSearchInside`, this returns  
+the index of the first found instance.  Returns -1 if not found.
 
 
-If primitive isn't found, this returns empty array
+# getIndexesOfPrimitive(primitive, array): number[]
 
-getIndexesOfPrimitive(primitive, array) // returns array of integers
-
-
-If arrayToSearchFor is found in arrayToSearchInside, this returns the index of the first found instance.
-
-getFirstIndexOfArray(arrayToSearchFor, arrayToSearchInside); // returns -1 if not found
+If `primitive` isn't found, returns empty array.
 
 
-if arrayToSearchFor isn't found, this returns empty array
+# getIndexesOfArray(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arrayToSearchFor,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arrayToSearchInside<br>): number[]
 
-getIndexesOfArray(arrayToSearchFor, arrayToSearchInside); // returns array of integers
+if `arrayToSearchFor` isn't found, returns empty array.
